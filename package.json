@@ -1,0 +1,25 @@
+{
+  "name": "@visiot-team/prettier-config",
+  "version": "1.0.0",
+  "description": "Prettier configuration to reuse through different projects",
+  "main": "index.json",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/visiot0/prettier-config.git"
+  },
+  "keywords": [
+    "prettier",
+    "config"
+  ],
+  "author": "Visiot",
+  "homepage": "https://visiot.net",
+  "license": "MIT",
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
